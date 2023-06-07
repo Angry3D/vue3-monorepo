@@ -45,7 +45,7 @@ vue3-monorepo
 
 > 打包时只会将指定项目的资源进行打包
 
-#### 使用 `package.json` 配置好的脚本
+### 1. 使用 `package.json` 配置好的脚本
 
 在 `package.json` 中，已经配置好了 `project-a` 和 `project-b` 的运行和打包命令，可直接使用，如果添加新项目，可以先在此补充新的对应的命令即可
 
@@ -56,7 +56,7 @@ npm run build:test:project-a # 测试环境打包
 npm run build:prod:project-a # 生产环境打包
 ```
 
-#### 使用 `动态命令`
+### 2. 使用 `动态命令`
 
 上面的方式虽然可以解决问题，但随着项目越来越多，`package.json` 的 `script` 区间必然将急速膨胀，因此，我们也提供一种 `动态命令` 的方式进行运行或打包
 
