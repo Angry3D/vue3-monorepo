@@ -64,8 +64,8 @@ npm run build:prod:project-a # 生产环境打包
 # project=xxx  用于指定项目的文件名称
 project=project-a npm run dev # 本地开发
 project=project-a npm run build:dev # 开发环境打包
-project=project-a npm run build:test # 开发环境打包
-project=project-a npm run build:prod # 开发环境打包
+project=project-a npm run build:test # 测试环境打包
+project=project-a npm run build:prod # 生产环境打包
 ```
 
 ## 最佳实践
